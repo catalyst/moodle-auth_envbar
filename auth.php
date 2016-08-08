@@ -28,9 +28,10 @@ require_once($CFG->libdir . '/authlib.php');
 class auth_plugin_envbar extends auth_plugin_base {
 
     /**
-     * All the checking happens before the login page in this hook
+     * Constructor with initialisation.
      */
     public function __construct() {
+        $this->authtype = 'envbar';
     }
 
     /**

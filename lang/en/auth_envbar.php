@@ -22,5 +22,6 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU Public License
  */
 
-$string['pluginname'] = 'Envbar';
+$string['pluginname'] = 'Env Bar';
+$string['auth_envbardescription'] = 'Envbar companion auth plugin';
 
