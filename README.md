@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/catalyst/moodle-auth_envbar.svg?branch=master)](https://travis-ci.org/catalyst/moodle-auth_envbar)
+
 # Moodle auth_envbar
 
 A companion plugin to local_envbar
