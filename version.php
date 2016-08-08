@@ -34,4 +34,5 @@ $plugin->release   = 2016080801;      // Same as version
 $plugin->requires  = 2014051200;      // Requires Moodle 2.7 or later.
 $plugin->component = "auth_envbar";
 $plugin->maturity  = MATURITY_STABLE;
+$plugin->dependencies = array('local_envbar' => 2016080801);
 
