@@ -35,6 +35,18 @@ class auth_plugin_envbar extends auth_plugin_base {
     }
 
     /**
+     * Will always be false.
+     *
+     * @param string $username The username (without system magic quotes)
+     * @param string $password The password (without system magic quotes)
+     *
+     * @return bool Authentication success or failure.
+     */
+    public function user_login($username, $password) {
+        return false;
+    }
+
+    /**
      * All the checking happens before the login page in this hook
      */
     public function loginpage_hook() {
